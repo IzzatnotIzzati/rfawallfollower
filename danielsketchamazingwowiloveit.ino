@@ -66,7 +66,7 @@ void sharp_right() {
 void straight() {
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,100); // motor (left)
+  analogWrite(25,115); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
   analogWrite(15,100); // motor (right)
@@ -114,7 +114,7 @@ void loop() {
         display.display();
         // Add a small delay to allow display to update and sensors to stabilize (said github copilot lol)
         delay(50);
-        if ((ir_left == 1 && ir_right == 0) && hasObject <= 18) { //ultrasonic, left
+        if ((ir_left == 1 && ir_right == 0) && hasObject <= 13) { //ultrasonic, left
 
           digitalWrite(13,LOW); //reverse u blind bitch
           digitalWrite(14,HIGH);
@@ -132,7 +132,7 @@ void loop() {
           analogWrite(15,200); // motor (right)
           delay(480);
         // emo boy
-        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 18) { //ultrasonic, right
+        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 13) { //ultrasonic, right
 
           digitalWrite(13,LOW); //reverse you blind bitch
           digitalWrite(14,HIGH);
@@ -156,7 +156,7 @@ void loop() {
         } else if (ir_left == 1 && ir_right == 0) { //ir
           sharp_left();
           delay(5);
-        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 18) {
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 13) {
           straight();
           delay(10);
         }
