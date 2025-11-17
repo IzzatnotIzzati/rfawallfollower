@@ -1,0 +1,33 @@
+profiles:
+  rfa1:
+    fqbn: esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none
+    platforms:
+      - platform: esp32:esp32 (3.3.3)
+    libraries:
+      - dir: C:\Users\HP\Documents\Arduino\libraries\MakerKit
+      - Adafruit GFX Library (1.11.7)
+      - Adafruit BusIO (1.16.2)
+      - Adafruit SSD1306 (2.5.7)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      lineEnding: "\r\n"
+      bits: "8"
+      parity: none
+      stop_bits: "1"
+    port: COM3
+  test:
+    fqbn: esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none
+    platforms:
+      - platform: esp32:esp32 (3.3.3)
+    libraries:
+      - dir: C:\Users\HP\Documents\Arduino\libraries\MakerKit
+      - Adafruit GFX Library (1.11.7)
+      - Adafruit BusIO (1.16.2)
+      - Adafruit SSD1306 (2.5.7)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: "1"
