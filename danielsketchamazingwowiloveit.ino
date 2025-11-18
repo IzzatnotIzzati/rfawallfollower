@@ -13,7 +13,7 @@ Adafruit_SSD1306 display(128, 32, &Wire, -1);
 void sharp_left() {
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,150); // motor (left)
+  analogWrite(25,100); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
   analogWrite(15,200); //motor (right)
@@ -58,7 +58,7 @@ void sharp_right() {
   analogWrite(25,200); //motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,150); //motor (right)
+  analogWrite(15,100); //motor (right)
 }
 
 
@@ -69,7 +69,7 @@ void straight() {             // forward, left motor diff speed so that ir senso
   analogWrite(25,200); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,190); // motor (right)
+  analogWrite(15,180); // motor (right)
 }
 
 void reverse() { // seems broken, idk why tbh
@@ -122,7 +122,7 @@ void loop() {
           digitalWrite(18,LOW);
           digitalWrite(19,HIGH);
           analogWrite(15,200);
-          delay(200); //how long to reverse     
+          delay(300); //how long to reverse     
           
           //turn left
           digitalWrite(13,HIGH);
@@ -131,7 +131,7 @@ void loop() {
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
           analogWrite(15,200); // motor (right)
-          delay(800);
+          delay(900);
         // emo boy
         } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 16) { //ultrasonic, right
 
@@ -141,7 +141,7 @@ void loop() {
           digitalWrite(18,LOW);
           digitalWrite(19,HIGH);
           analogWrite(15,200);
-          delay(200); //how long to reverse      
+          delay(300); //how long to reverse      
       
           //turn right
           digitalWrite(13,HIGH);
@@ -150,7 +150,7 @@ void loop() {
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
           analogWrite(15,25); // motor (right)
-          delay(800);
+          delay(900);
         
         } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 16) { //ultrasonic, no ir detection
           
