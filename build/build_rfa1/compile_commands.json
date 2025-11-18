@@ -646,46 +646,6 @@
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
   "arguments": [
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ESP32_WROOM_DA",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
-   "-DARDUINO_VARIANT=\"esp32da\"",
-   "-DARDUINO_PARTITION_default",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
-   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
-   "-iprefix",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\FunctionalInterrupt.cpp",
-   "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\FunctionalInterrupt.cpp.o"
-  ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\FunctionalInterrupt.cpp"
- },
- {
-  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
-  "arguments": [
    "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-gcc",
    "-MMD",
    "-c",
@@ -762,6 +722,46 @@
    "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\Esp.cpp.o"
   ],
   "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\Esp.cpp"
+ },
+ {
+  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_WROOM_DA",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
+   "-DARDUINO_VARIANT=\"esp32da\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
+   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
+   "-iprefix",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\FunctionalInterrupt.cpp",
+   "-o",
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\FunctionalInterrupt.cpp.o"
+  ],
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\FunctionalInterrupt.cpp"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1317,11 +1317,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\USBCDC.cpp",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\WMath.cpp",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\USBCDC.cpp.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\WMath.cpp.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\USBCDC.cpp"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\WMath.cpp"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1397,51 +1397,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\WMath.cpp",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\USBCDC.cpp",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\WMath.cpp.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\USBCDC.cpp.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\WMath.cpp"
- },
- {
-  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ESP32_WROOM_DA",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
-   "-DARDUINO_VARIANT=\"esp32da\"",
-   "-DARDUINO_PARTITION_default",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
-   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
-   "-iprefix",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\base64.cpp",
-   "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\base64.cpp.o"
-  ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\base64.cpp"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\USBCDC.cpp"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1482,6 +1442,46 @@
    "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\WString.cpp.o"
   ],
   "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\WString.cpp"
+ },
+ {
+  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_WROOM_DA",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
+   "-DARDUINO_VARIANT=\"esp32da\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
+   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
+   "-iprefix",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\base64.cpp",
+   "-o",
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\base64.cpp.o"
+  ],
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\base64.cpp"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1757,6 +1757,46 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-gpio.c",
+   "-o",
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-gpio.c.o"
+  ],
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-gpio.c"
+ },
+ {
+  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-gcc",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/c_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_WROOM_DA",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
+   "-DARDUINO_VARIANT=\"esp32da\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
+   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
+   "-iprefix",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
    "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-hosted.c",
    "-o",
    "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-hosted.c.o"
@@ -1802,46 +1842,6 @@
    "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-i2c-ng.c.o"
   ],
   "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-i2c-ng.c"
- },
- {
-  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-gcc",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/c_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ESP32_WROOM_DA",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
-   "-DARDUINO_VARIANT=\"esp32da\"",
-   "-DARDUINO_PARTITION_default",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
-   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
-   "-iprefix",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-gpio.c",
-   "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-gpio.c.o"
-  ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-gpio.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1957,11 +1957,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-matrix.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-ledc.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-matrix.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-ledc.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-matrix.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-ledc.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -1997,11 +1997,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-ledc.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-matrix.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-ledc.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-matrix.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-ledc.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-matrix.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2237,11 +2237,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-time.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-sigmadelta.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-time.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-sigmadelta.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-time.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-sigmadelta.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2317,11 +2317,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-sigmadelta.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-time.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-sigmadelta.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-time.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-sigmadelta.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-time.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2477,11 +2477,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-uart.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-touch.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-uart.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-touch.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-uart.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-touch.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2517,11 +2517,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-touch.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-uart.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-touch.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\esp32-hal-uart.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-touch.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\esp32-hal-uart.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2646,46 +2646,6 @@
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
   "arguments": [
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-gcc",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/c_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ESP32_WROOM_DA",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
-   "-DARDUINO_VARIANT=\"esp32da\"",
-   "-DARDUINO_PARTITION_default",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
-   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
-   "-iprefix",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
-   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
-   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
-   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\libb64\\cencode.c",
-   "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\libb64\\cencode.c.o"
-  ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\libb64\\cencode.c"
- },
- {
-  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
-  "arguments": [
    "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-g++",
    "-MMD",
    "-c",
@@ -2722,6 +2682,46 @@
    "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\main.cpp.o"
   ],
   "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\main.cpp"
+ },
+ {
+  "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp-x32_2507_0c68e32d0d5340f1/bin/xtensa-esp32-elf-gcc",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/c_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ESP32_WROOM_DA",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ESP32_WROOM_DA\"",
+   "-DARDUINO_VARIANT=\"esp32da\"",
+   "-DARDUINO_PARTITION_default",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:esp32da:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/defines",
+   "-IC:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit",
+   "-iprefix",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/include/",
+   "@C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/flags/includes",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32-arduino-libs_idf-release_v5.5-f1a1df9b-v3_a6193c21d0\\esp32/qio_qspi/include",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32",
+   "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
+   "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\stdlib_noniso.c",
+   "-o",
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\stdlib_noniso.c.o"
+  ],
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\stdlib_noniso.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",
@@ -2797,11 +2797,11 @@
    "-IC:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\variants\\esp32da",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/build_opt.h",
    "@C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1/file_opts",
-   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\stdlib_noniso.c",
+   "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\libb64\\cencode.c",
    "-o",
-   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\stdlib_noniso.c.o"
+   "C:\\Users\\HP\\Desktop\\danielsketchamazingwowiloveit\\build\\build_rfa1\\core\\libb64\\cencode.c.o"
   ],
-  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\stdlib_noniso.c"
+  "file": "C:\\Users\\HP\\AppData\\Local\\Arduino15\\internal\\esp32_esp32_3.3.3_6ba8f974995a4c6b\\cores\\esp32\\libb64\\cencode.c"
  },
  {
   "directory": "C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code",

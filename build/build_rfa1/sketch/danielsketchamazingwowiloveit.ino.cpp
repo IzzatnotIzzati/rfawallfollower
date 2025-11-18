@@ -88,7 +88,7 @@ void straight() {             // forward, left motor diff speed so that ir senso
   analogWrite(25,200); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,175); // motor (right)
+  analogWrite(15,190); // motor (right)
 }
 
 void reverse() { // seems broken, idk why tbh
@@ -133,7 +133,7 @@ void loop() {
         display.display();
         // Add a small delay to allow display to update and sensors to stabilize (said github copilot lol)
         delay(50);
-        if ((ir_left == 1 && ir_right == 0) && hasObject <= 14) { //ultrasonic, left
+        if ((ir_left == 1 && ir_right == 0) && hasObject <= 16) { //ultrasonic, left
 
           digitalWrite(13,LOW); //reverse u blind bitch
           digitalWrite(14,HIGH);
@@ -150,9 +150,9 @@ void loop() {
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
           analogWrite(15,200); // motor (right)
-          delay(480);
+          delay(800);
         // emo boy
-        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 14) { //ultrasonic, right
+        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 16) { //ultrasonic, right
 
           digitalWrite(13,LOW); //reverse you blind bitch
           digitalWrite(14,HIGH);
@@ -169,9 +169,9 @@ void loop() {
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
           analogWrite(15,50); // motor (right)
-          delay(480);
+          delay(800);
         
-        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 14) { //ultrasonic, no ir detection
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 16) { //ultrasonic, no ir detection
           
           while (hasObject < 22) { //reverse far
             read_sensors();
@@ -212,7 +212,7 @@ void loop() {
         } else if (ir_left == 1 && ir_right == 0) { //ir
           sharp_left();
           delay(5);
-        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 14) {
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 16) {
           straight();
           delay(10);
         }
