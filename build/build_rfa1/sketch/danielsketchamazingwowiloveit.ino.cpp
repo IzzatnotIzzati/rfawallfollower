@@ -85,7 +85,7 @@ void sharp_right() {
 void straight() {             // forward, left motor diff speed so that ir sensors work better aka literally following the right wall
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,215); // motor (left)
+  analogWrite(25,200); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
   analogWrite(15,175); // motor (right)
@@ -183,6 +183,14 @@ void loop() {
             analogWrite(15,150);
             delay(10); // dont change delay, it ukeeps reversing until its the distance required above
           }
+          
+
+          motor_stop();
+          delay(50); //let this thing rest for a bit smh
+
+
+
+          
 
           while (hasObject >= 22 && ir_right == 1) { //search for the wall on the right
             read_sensors();
