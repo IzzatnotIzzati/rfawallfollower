@@ -13,10 +13,10 @@ Adafruit_SSD1306 display(128, 32, &Wire, -1);
 void sharp_left() {
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,50); // motor (left)
+  analogWrite(25,150); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,100); //motor (right)
+  analogWrite(15,200); //motor (right)
 }
 
 
@@ -55,21 +55,21 @@ void read_sensors() {
 void sharp_right() {
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,100); //motor (left)
+  analogWrite(25,200); //motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,50); //motor (right)
+  analogWrite(15,150); //motor (right)
 }
 
 
 // Describe this function...
-void straight() {
+void straight() {             // forward, left motor diff speed so that ir sensors work better aka literally following the right wall
   digitalWrite(13,HIGH);
   digitalWrite(14,LOW);
-  analogWrite(25,115); // motor (left)
+  analogWrite(25,215); // motor (left)
   digitalWrite(18,HIGH);
   digitalWrite(19,LOW);
-  analogWrite(15,100); // motor (right)
+  analogWrite(15,175); // motor (right)
 }
 
 void reverse() { // seems broken, idk why tbh
@@ -114,7 +114,7 @@ void loop() {
         display.display();
         // Add a small delay to allow display to update and sensors to stabilize (said github copilot lol)
         delay(50);
-        if ((ir_left == 1 && ir_right == 0) && hasObject <= 13) { //ultrasonic, left
+        if ((ir_left == 1 && ir_right == 0) && hasObject <= 14) { //ultrasonic, left
 
           digitalWrite(13,LOW); //reverse u blind bitch
           digitalWrite(14,HIGH);
@@ -133,7 +133,7 @@ void loop() {
           analogWrite(15,200); // motor (right)
           delay(480);
         // emo boy
-        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 13) { //ultrasonic, right
+        } else if ((ir_left == 0 && ir_right == 1) && hasObject <= 14) { //ultrasonic, right
 
           digitalWrite(13,LOW); //reverse you blind bitch
           digitalWrite(14,HIGH);
@@ -152,9 +152,9 @@ void loop() {
           analogWrite(15,50); // motor (right)
           delay(480);
         
-        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 13) { //ultrasonic, no ir detection
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 14) { //ultrasonic, no ir detection
           
-          while (hasObject < 20) { //reverse far
+          while (hasObject < 22) { //reverse far
             read_sensors();
             digitalWrite(13,LOW); //reverse you blind bitch
             digitalWrite(14,HIGH);
@@ -165,16 +165,18 @@ void loop() {
             delay(10); // dont change delay, it ukeeps reversing until its the distance required above
           }
 
-          while (hasObject >= 20 && ir_right == 1) { //search for the wall on the right
+          while (hasObject >= 22 && ir_right == 1) { //search for the wall on the right
             read_sensors();
             digitalWrite(13,HIGH);
             digitalWrite(14,LOW);
-            analogWrite(25,120); // motor (left)
+            analogWrite(25,200); // motor (left)
             digitalWrite(18,HIGH);
             digitalWrite(19,LOW);
             analogWrite(15,20); // motor (right)
             delay(10);
           }
+
+          delay(200); //give it a moment to keep detecting the wall (for straight() to work correctly)
 
         
         } else if (ir_left == 0 && ir_right == 1) { //ir
@@ -183,7 +185,7 @@ void loop() {
         } else if (ir_left == 1 && ir_right == 0) { //ir
           sharp_left();
           delay(5);
-        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 13) {
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject > 14) {
           straight();
           delay(10);
         }
