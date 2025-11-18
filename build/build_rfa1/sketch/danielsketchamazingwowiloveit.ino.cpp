@@ -91,7 +91,7 @@ void straight() {
   analogWrite(15,100); // motor (right)
 }
 
-void reverse() {
+void reverse() { // seems broken, idk why tbh
   digitalWrite(13,LOW);
   digitalWrite(14,HIGH);
   analogWrite(25,100); 
@@ -137,15 +137,16 @@ void loop() {
 
           digitalWrite(13,LOW); //reverse u blind bitch
           digitalWrite(14,HIGH);
-          analogWrite(25,100);
+          analogWrite(25,200);
           digitalWrite(18,LOW);
           digitalWrite(19,HIGH);
-          analogWrite(15,100);
-          delay(275); //how long to reverse     
-      
+          analogWrite(15,200);
+          delay(200); //how long to reverse     
+          
+          //turn left
           digitalWrite(13,HIGH);
           digitalWrite(14,LOW);
-          analogWrite(25,0); // motor (left)
+          analogWrite(25,50); // motor (left)
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
           analogWrite(15,200); // motor (right)
@@ -155,20 +156,55 @@ void loop() {
 
           digitalWrite(13,LOW); //reverse you blind bitch
           digitalWrite(14,HIGH);
-          analogWrite(25,100);
+          analogWrite(25,200);
           digitalWrite(18,LOW);
           digitalWrite(19,HIGH);
-          analogWrite(15,100);
-          delay(275);      
+          analogWrite(15,200);
+          delay(200); //how long to reverse      
       
-
+          //turn right
           digitalWrite(13,HIGH);
           digitalWrite(14,LOW);
           analogWrite(25,200); // motor (left)
           digitalWrite(18,HIGH);
           digitalWrite(19,LOW);
-          analogWrite(15,0); // motor (right)
+          analogWrite(15,50); // motor (right)
           delay(480);
+        
+        } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 13) { //ultrasonic, no ir detection
+          
+          while (hasObject < 15) {
+            read_sensors();
+            digitalWrite(13,LOW); //reverse you blind bitch
+            digitalWrite(14,HIGH);
+            analogWrite(25,150);
+            digitalWrite(18,LOW);
+            digitalWrite(19,HIGH);
+            analogWrite(15,150);
+            delay(10); //how long to reverse
+          }
+
+            while (hasObject >= 20 && ir_right == 1) {
+            read_sensors();
+            digitalWrite(13,HIGH);
+            digitalWrite(14,LOW);
+            analogWrite(25,120); // motor (left)
+            digitalWrite(18,HIGH);
+            digitalWrite(19,LOW);
+            analogWrite(15,50); // motor (right)
+            delay(480);
+            }
+
+            
+
+
+
+
+        
+        
+        
+        
+        
         } else if (ir_left == 0 && ir_right == 1) { //ir
           sharp_right();
           delay(5);
