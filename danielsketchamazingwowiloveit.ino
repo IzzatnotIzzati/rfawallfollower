@@ -154,7 +154,7 @@ void loop() {
         
         } else if ((ir_left == 1 && ir_right == 1 || ir_left == 0 && ir_right == 0) && hasObject <= 13) { //ultrasonic, no ir detection
           
-          while (hasObject < 15) {
+          while (hasObject < 20) { //reverse far
             read_sensors();
             digitalWrite(13,LOW); //reverse you blind bitch
             digitalWrite(14,HIGH);
@@ -162,29 +162,20 @@ void loop() {
             digitalWrite(18,LOW);
             digitalWrite(19,HIGH);
             analogWrite(15,150);
-            delay(10); //how long to reverse
+            delay(10); // dont change delay, it ukeeps reversing until its the distance required above
           }
 
-            while (hasObject >= 20 && ir_right == 1) {
+          while (hasObject >= 20 && ir_right == 1) { //search for the wall on the right
             read_sensors();
             digitalWrite(13,HIGH);
             digitalWrite(14,LOW);
             analogWrite(25,120); // motor (left)
             digitalWrite(18,HIGH);
             digitalWrite(19,LOW);
-            analogWrite(15,50); // motor (right)
-            delay(480);
-            }
+            analogWrite(15,20); // motor (right)
+            delay(10);
+          }
 
-            
-
-
-
-
-        
-        
-        
-        
         
         } else if (ir_left == 0 && ir_right == 1) { //ir
           sharp_right();
